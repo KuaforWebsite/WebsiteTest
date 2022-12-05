@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+html{
+    background-color: #292c6d;
+    background-size: cover;
+}
+
+.MainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ffd1d1;
+}
+
+.AltContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 1000px;
+    min-width: 360px;
+}
+
+.NavBar{
+    padding: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+.StrongSperm{
+    font-size: x-large;
+    font-family: 'Kanit', sans-serif;
+}
+.bosluk{
+    height: 100px;
+}
+.Card{
+    background-color:rgba(0, 0, 0);
+    padding: 30px;
+    border-radius: 20px;
+}
+#lang-switch{
+    display: flex;
+    align-items: center;
+}
+.lang{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #292c6d;
+    cursor: pointer;
+    color: #ffd1d1;
+    font-family: kanit;
+    font-size: large;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0px;
+}
+.MenuTablo{
+    display: flex;
+    flex-direction: column;
+}
+.MenuItem{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #4B0082;
+    font-size: x-large;
+    padding: 3px;
+}
+footer{
+    width: 100%;
+}
+.Footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+.flexkonum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.KonumBilgi{
+    min-width: 300px;
+    max-width: 660px;
+}
+
+.FooterFlex{
+    display: flex;
+    flex-direction: column;
+}
